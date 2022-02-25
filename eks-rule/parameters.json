@@ -1,0 +1,13 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "eks-rule",
+    "Description": "An example of how to test the compliance of an EKS cluster's Daemonset environment variables using AWS Config",
+    "SourceRuntime": "python3.8",
+    "CodeKey": "eks-rule.zip",
+    "InputParameters": "{}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::EKS::Cluster"
+  },
+  "Tags": "[]"
+}
