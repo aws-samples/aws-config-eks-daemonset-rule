@@ -23,11 +23,13 @@ Conscidering that this rule is testing a config that is external to your AWS env
 4. Deploy the rules
 
 ```
+$ cd eks-rule
 $ rdk deploy eks-rule
 ```
 
 ## Test rule
 ```
+$ cd eks-rule
 $ rdk test-local eks-rule
 ```
 
