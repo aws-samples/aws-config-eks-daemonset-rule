@@ -2,7 +2,7 @@
 
 ## Introduction
 
-`aws-config-eks-daemonset-rule` is an example aws config project that demonstrates how to write a rule to test the daemonset of and EKS cluster. This project includes EKS config rule with a unit test case for the rule. 
+`aws-config-eks-daemonset-rule` is an example aws config project that demonstrates how to write a rule to test the daemonset of an EKS cluster. This project includes EKS config rule with a unit test case for the rule. 
 
 
 Conscidering that this rule is testing a config that is external to your AWS env the rule will need to be triggered periodically rather than triggering based on a change. The rule will work by making an API request to the kubernestes cluster end point to fetch the daemonset. This endpoint can be accessed from the kubernetes cluster. You should have a cluster deployed prior to testing your rule.
